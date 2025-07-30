@@ -25,6 +25,6 @@ public class Index {
        List<WebElement> list = wd.findElements(By.tagName("input"));
     }
 
-    
+
 
 }

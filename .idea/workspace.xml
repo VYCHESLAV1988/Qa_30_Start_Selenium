@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="82178a07-ded5-4b1f-b6fa-2d01e631e2cf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HomeWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomeWork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Index.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Index.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,17 +42,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.HomeWork.cssSelectors.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Qa_30_Start_Selenium [test].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.HomeWork.cssSelectors.executor": "Run",
+    "Gradle.Index.cssLocators.executor": "Run",
+    "Gradle.Qa_30_Start_Selenium [test].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main"
   }
-}</component>
-  <component name="RunManager" selected="Gradle.HomeWork.cssSelectors">
+}]]></component>
+  <component name="RunManager" selected="Gradle.Index.cssLocators">
     <configuration name="HomeWork.cssSelectors" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -65,6 +68,30 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;HomeWork.cssSelectors&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Index.cssLocators" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;Index.cssLocators&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -99,6 +126,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Index.cssLocators" />
         <item itemvalue="Gradle.HomeWork.cssSelectors" />
         <item itemvalue="Gradle.Qa_30_Start_Selenium [test]" />
       </list>

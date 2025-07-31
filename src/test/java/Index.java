@@ -47,7 +47,7 @@ public class Index {
         //By.linkText / By.partialLinkText
         WebElement a = wd.findElement(By.linkText("Item 3"));
         WebElement a2 = wd.findElement(By.partialLinkText("m 2"));
-        
+
     }
 
 

@@ -1,7 +1,10 @@
+import com.beust.jcommander.WrappedParameter;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -15,6 +18,13 @@ public class Index {
     public void setUp(){
         wd = new ChromeDriver();
         wd.get("file:///C://Tools/21.index.html");
+    }
+
+    @Test
+    public void tableTest(){
+        //Canada
+        WebElement canada = wd.findElement(By.cssSelector("tr:nth-child(3)>td:last-child"));
+        Assert.assertEquals(canada.getText(),"Canada");
     }
 
     @Test
@@ -40,6 +50,16 @@ public class Index {
         WebElement a3 = wd.findElement(By.cssSelector("[href='#item3']"));
         WebElement inputPassword = wd.findElement(By.cssSelector("[placeholder='Type your surename']"));
 
+        //start ^=
+        WebElement inputEmail1 = wd.findElement(By.cssSelector("[placeholder^='Type']"));
+
+        //countenance *=
+        WebElement imputEmail2 = wd.findElement(By.cssSelector("[placeholder*='your']"));
+
+        //end $=
+        WebElement inputEmail3 = wd.findElement(By.cssSelector("[placeholder$='name']"));
+
+
         //by name
         WebElement inputS = wd.findElement(By.cssSelector("[name='surename']"));
         WebElement inputS1 = wd.findElement(By.name("surename"));
@@ -50,6 +70,9 @@ public class Index {
 
     }
 
-
+     @AfterClass
+    public void tearDown(){
+        wd.quit();
+     }
 
 }

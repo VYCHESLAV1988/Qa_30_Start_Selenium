@@ -46,7 +46,40 @@ public class HomeWork {
         WebElement Registration = wd.findElement(By.tagName("button"));
         WebElement Registration1 = wd.findElement(By.cssSelector("button"));
         
+        //by xpath
+        //by id
+        //by attribute
 
+
+        WebElement el14 = wd.findElement(By.xpath("//*[starts-with(@placeholder, 'Pas')]"));
+        //WebElement el15 = wd.findElement(By.xpath("//*[]"));
+        WebElement  el20 = wd.findElement(By.xpath("//a[3]"));
+        //WebElement el21 = wd.findElement(By.xpath("//"))
+    }
+
+    @Test
+    public void classWork(){
+        //parents
+        WebElement el = wd.findElement(By.xpath("//h1/parents::*"));
+        WebElement el1 = wd.findElement(By.xpath("//h1/parents::div"));
+        WebElement el2 = wd.findElement(By.xpath("//h1/.."));
+        //ancestor
+        WebElement el3 = wd.findElement(By.xpath("//h1/ancestor::*")); //all
+        WebElement el4 = wd.findElement(By.xpath("//h1/ancestor::div")); //two options
+        WebElement el5 = wd.findElement(By.xpath("//h1/ancestor::div[2]")); //one options
+
+        //ancestor-or-self
+        WebElement el6 = wd.findElement(By.xpath("//h1/ancestor-or-self::*"));
+        List<WebElement>list = wd.findElements(By.xpath("//h1/ancestor-or-self::*"));
+
+        //following-sibling
+        List<WebElement>list1 = wd.findElements(By.xpath("//h1/following-sibling::*"));
+        WebElement el7 = wd.findElement(By.xpath("//h1/following-sibling::a[3]"));
+        WebElement el8 = wd.findElement(By.xpath("//h1/following-sibling::a[last()]"));
+
+        //preceding-sibling
+        WebElement el9 = wd.findElement(By.xpath("//a[@href='/login']/preceding-sibling::*"));
+        WebElement el10 = wd.findElement(By.xpath("//a[@href='/login']/preceding-sibling::a[2]"));
 
 
 

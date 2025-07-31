@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82178a07-ded5-4b1f-b6fa-2d01e631e2cf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Index.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Index.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HomeWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomeWork.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,12 +27,12 @@
     &quot;assignee&quot;: &quot;VYCHESLAV1988&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/VYCHESLAV1988/Qa_30_Start_Selenium.git",
-    "accountId": "3684aa2f-230a-4102-9262-7e6ad3c54c70"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/VYCHESLAV1988/Qa_30_Start_Selenium.git&quot;,
+    &quot;accountId&quot;: &quot;3684aa2f-230a-4102-9262-7e6ad3c54c70&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -42,19 +41,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.HomeWork.cssSelectors.executor": "Run",
-    "Gradle.Index.cssLocators.executor": "Run",
-    "Gradle.Index.tableTest.executor": "Run",
-    "Gradle.Qa_30_Start_Selenium [test].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.HomeWork.cssSelectors.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Index.cssLocators.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Index.tableTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Qa_30_Start_Selenium [test].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Gradle.Index.tableTest">
+}</component>
+  <component name="RunManager" selected="Gradle.HomeWork.cssSelectors">
     <configuration name="HomeWork.cssSelectors" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -151,9 +150,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.HomeWork.cssSelectors" />
         <item itemvalue="Gradle.Index.tableTest" />
         <item itemvalue="Gradle.Index.cssLocators" />
-        <item itemvalue="Gradle.HomeWork.cssSelectors" />
         <item itemvalue="Gradle.Qa_30_Start_Selenium [test]" />
       </list>
     </recent_temporary>

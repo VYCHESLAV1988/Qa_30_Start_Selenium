@@ -31,8 +31,11 @@ public class Index {
     public void cssLocators(){
         //by tagName
        WebElement el = wd.findElement(By.tagName("button"));
+       WebElement el1 = wd.findElement(By.xpath("//button")); //xpath for elements xml and mobile app
+
        WebElement input = wd.findElement(By.tagName("input"));
        List<WebElement> list = wd.findElements(By.tagName("input"));
+       WebElement input1 = wd.findElement(By.xpath("//input"));
 
        //by class find Elements  .container
         WebElement div = wd.findElement(By.className("container"));
